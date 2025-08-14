@@ -29,4 +29,4 @@ class Myrand():
         self.m = m
     def rand(self):
         self.seed = (self.a * self.seed + self.c) % self.m
-        return self.seed
+        return self.seed / self.m 
